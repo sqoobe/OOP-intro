@@ -12,3 +12,4 @@ C:\Users\Jacob\OneDrive\OOP intro\obj\Debug\net8.0\refint\OOP intro.dll
 C:\Users\Jacob\OneDrive\OOP intro\obj\Debug\net8.0\OOP intro.pdb
 C:\Users\Jacob\OneDrive\OOP intro\obj\Debug\net8.0\OOP intro.genruntimeconfig.cache
 C:\Users\Jacob\OneDrive\OOP intro\obj\Debug\net8.0\ref\OOP intro.dll
+C:\Users\Jacob\OneDrive\OOP intro\obj\Debug\net8.0\OOP intro.sourcelink.json

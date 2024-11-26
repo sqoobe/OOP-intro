@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Please write something, then hit enter");
+string userInput = Console.ReadLine();
+
+Console.WriteLine("User inputted");
+Console.WriteLine(userInput);
