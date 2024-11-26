@@ -1,4 +1,10 @@
-﻿while (true)
+﻿//
+Library library = new Library();
+
+
+
+// main loop
+while (true)
 {
     Console.WriteLine("Please write something, then hit 'enter'");
     string? userInput = Console.ReadLine();
@@ -8,6 +14,13 @@
     }
     switch (userInput)
     {
+        case "list":
+            List<Book> availableBooks = library.ListAvailableBooks();
+            foreach (var book in availableBooks)
+            {
+                Console.WriteLine($"Title: {book.Title}");
+            }
+            break;
         case "borrow":
             Console.WriteLine("Borrowing a book");
             break;
